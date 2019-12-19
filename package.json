@@ -1,0 +1,22 @@
+{
+  "name": "ecma-async-loop",
+  "version": "1.0.0",
+  "description": "JavaScript / TypeScript library to help to perform asynchronous loop",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordazzi/ecma-async-loop.git"
+  },
+  "author": "Ricardo Azzi Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordazzi/ecma-async-loop/issues"
+  },
+  "homepage": "https://github.com/lordazzi/ecma-async-loop#readme",
+  "devDependencies": {
+    "typescript": "3.7.3"
+  }
+}
