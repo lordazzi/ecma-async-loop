@@ -1,6 +1,6 @@
 {
   "name": "ecma-async-loop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript / TypeScript library to help to perform asynchronous loop",
   "main": "index.js",
   "scripts": {
