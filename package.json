@@ -10,6 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/lordazzi/ecma-async-loop.git"
   },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "async",
+    "loop",
+    "foreach",
+    "for",
+    "while",
+    "asynchronous",
+    "reactive",
+    "reactive-programming",
+    "rxjs",
+    "async-await",
+    "async-foreach",
+    "angular"
+  ],
   "author": "Ricardo Azzi Silva",
   "license": "MIT",
   "bugs": {
