@@ -4,7 +4,7 @@
   "description": "JavaScript / TypeScript library to help to perform asynchronous loop",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "build": "tsc --project ."
   },
   "repository": {
     "type": "git",
