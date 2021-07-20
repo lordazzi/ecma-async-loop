@@ -10,11 +10,11 @@ export async function asyncDoWhile(args: {
   return Promise.resolve();
 }
 
-export async function asyncForEach(executionQueue: (() => Promise<void>)[]): Promise<void> {
+export async function asyncForEach<T>(executionQueue: ((pendingAmount: number) => Promise<T>)[]): Promise<void> {
   const executionQueueClone = cloneArray(executionQueue);
   const promisableFunction = executionQueueClone.shift();
   if (promisableFunction) {
-    return promisableFunction().then(
+    return promisableFunction(executionQueueClone.length).then(
       () => asyncForEach(executionQueueClone)
     ).catch(
       error => Promise.reject(error)
